@@ -379,6 +379,11 @@ img[srcset].show {
   position: relative;
   width: 300px;
   height: 100%;
+  overflow: hidden;
+}
+
+.carousel__item img {
+  width: 100%;
 }
 
 .carousel__item:hover .carousel__event-control {
