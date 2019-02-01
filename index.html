@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Creative People Test</title>
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body class="page">
+    <!--BEGIN header-->
+    <header class="header">
+        <div class="container header__container">
+            <a href="/" class="logo op25">
+                <svg width="41" height="56">
+                    <use xlink:href="img/svg-sprite.svg#logo-h" />
+                </svg>
+            </a>
+
+            <div class="header__content">
+                <h1 class="title title_size_32">adventure</h1>
+                <p class="header__p op25">оставь свой след, где его еще нет... </p>
+            </div>
+        </div>
+    </header>
+    <!--END header-->
+
+    <!--BEGIN main-->
+    <main class="main">
+        <div class="container">
+
+            <!--BEGIN filter-->
+            <div class="filter">
+                <ul class="filter__list">
+                    <li class="filter__item">
+                        <a href="#" class="filter__link filter__link_is-active" data-filter='all'>Все страны</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" class="filter__link" data-filter='culture'>культура</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" class="filter__link" data-filter='extreme'>экстрим</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" class="filter__link" data-filter='atmosphere'>атмосфера</a>
+                    </li>
+                    <li class="filter__item">
+                        <a href="#" class="filter__link" data-filter='people'>Люди</a>
+                    </li>
+                </ul>
+            </div>
+            <!--END filter-->
+
+
+            <!--BEGIN tiles-->
+            <div class="tiles">
+
+                <ul class="tiles__list">
+
+                    <li class="tiles__item tiles__item_double-size" data-filter='people,culture,atmosphere'>
+                        <img data-srcset="img/cauntries/latin.png, img/cauntries/retina/latin@2x.png 2x" alt="Latin Ametica">
+
+                        <h2 class="title title_size_40 tiles__title_mb35">Latin America</h2>
+
+                        <ol class="numbered-list">
+                            <li class="numbered-list__item title title_size_20">Honduras</li>
+                            <li class="numbered-list__item title title_size_20">Columbia</li>
+                            <li class="numbered-list__item title title_size_20">Panama</li>
+                            <li class="numbered-list__item title title_size_20">Brazil</li>
+                            <li class="numbered-list__item title title_size_20">Peru</li>
+                        </ol>
+                    </li>
+
+                    <li class="tiles__item" data-filter='culture,people,atmosphere'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/cuba.png, img/cauntries/retina/cuba@2x.png 2x" alt="Photo Cuba">
+                                    <h2 class="title title_size_36 carousel__title_center">Cuba</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='culture,people,extreme'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/russia.png, img/cauntries/retina/russia@2x.png 2x" alt="Photo Russia">
+                                    <h2 class="title title_size_36 carousel__title_center">Russia</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Russia</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='culture,people'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/england.png, img/cauntries/retina/england@2x.png 2x" alt="Photo England">
+                                    <h2 class="title title_size_36 carousel__title_center">England</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">England</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='atmosphere'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/norway.png, img/cauntries/retina/norway@2x.png 2x" alt="Photo Norway">
+                                    <h2 class="title title_size_36 carousel__title_center">Norway</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Norway</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='atmosphere,extreme'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/switzerland.png, img/cauntries/retina/switzerland@2x.png 2x" alt="Photo Switzerland">
+                                    <h2 class="title title_size_36 carousel__title_center">Switzerland</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Switzerland</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='culture'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/china.png, img/cauntries/retina/china@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_36 carousel__title_center">China</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">China</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='culture,people'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/germany.png, img/cauntries/retina/germany@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_36 carousel__title_center">Germany</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Germany</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='culture,people'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/japan.png, img/cauntries/retina/japan@2x.png 2x" alt="Photo Japan">
+                                    <h2 class="title title_size_36 carousel__title_center">Japan</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Japan</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='atmosphere,extreme'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/australia.png, img/cauntries/retina/australia@2x.png 2x" alt="Photo Australia">
+                                    <h2 class="title title_size_36 carousel__title_center">Australia</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Australia</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='culture'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/india.png, img/cauntries/retina/india@2x.png 2x" alt="Photo India">
+                                    <h2 class="title title_size_36 carousel__title_center">India</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">India</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='people'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/finland.png, img/cauntries/retina/finland@2x.png 2x" alt="Photo Finland">
+                                    <h2 class="title title_size_36 carousel__title_center">Finland</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">Finland</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                    <li class="tiles__item" data-filter='people,atmosphere'>
+                        <!--BEGIN carousel-->
+                        <div class="carousel carousel__wrapper">
+                            <div class="carousel__track">
+
+                                <div class="carousel__item">
+                                    <img data-srcset="img/cauntries/newzeal.png, img/cauntries/retina/newzeal@2x.png 2x" alt="Photo New Zealand">
+                                    <h2 class="title title_size_36 carousel__title_center">New Zealand</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_text">
+                                    <p>Хэмингуэй, став весьма знаменитым, естественно, мог выбрать любое место в мире.
+                                        Почему
+                                        же он 22 года прожил в Гаване? Потому что это свобода!</p>
+                                    <h2 class="title title_size_24 carousel__title_bl">New Zealand</h2>
+                                </div>
+
+                                <div class="carousel__item carousel__item_photo">
+                                    <a href="img/cauntries/cuba_popup.png, img/cauntries/retina/cuba_popup@2x.png 2x" data-popup="image" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#scale" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba2.png, img/cauntries/retina/cuba2@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+
+                                </div>
+
+                                <div class="carousel__item carousel__item_video">
+                                    <a href="https://www.youtube.com/embed/xPIOrYiCf6g" data-popup="iframe" class="pop-up__link">
+                                        <svg width="42" height="42" class="carousel__event-control">
+                                            <use xlink:href="img/svg-sprite.svg#play" />
+                                        </svg>
+                                    </a>
+                                    <img data-srcset="img/cauntries/cuba3.png, img/cauntries/retina/cuba3@2x.png 2x" alt="Photo cuba">
+                                    <h2 class="title title_size_24 carousel__title_bl">Cuba</h2>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel__controls">
+                                <div class="carousel__prev carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-left" />
+                                    </svg>
+                                </div>
+                                <div class="carousel__next carousel__controller">
+                                    <svg width="21" height="22">
+                                        <use xlink:href="./img/svg-sprite.svg#arrow-right" />
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <!--END carousel-->
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <!--END tiles-->
+
+        </div>
+    </main>
+    <!--END main-->
+
+    <!--BEGIN footer-->
+    <footer class="footer">
+        <div class="container footer__container">
+
+            <div class="copy op25 footer__copy">
+                © 2013 - 2015
+            </div>
+
+            <div class="who footer__who">
+                <p class="who__desc"><span class="op25">Здесь наследили</span> CreativePeople</p>
+                <a href="cpeople.ru" class="logo op25 footer__logo">
+                    <svg width="41" height="56">
+                        <use xlink:href="img/svg-sprite.svg#cp_logo" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <!--END footer-->
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

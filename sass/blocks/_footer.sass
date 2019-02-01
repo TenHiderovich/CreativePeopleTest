@@ -1,0 +1,21 @@
+.footer
+   background-color: $accent-black
+   margin-top: auto
+   padding: 12px 0
+
+   &__container
+      display: flex
+      align-items: center
+      flex-direction: column
+      +minw(700)
+         justify-content: space-between
+         flex-direction: row
+   &__copy
+      order: 2
+      +minw(700)
+         order: 0
+
+   &__logo
+      margin: 20px 0
+      +minw(700)
+         margin: 0

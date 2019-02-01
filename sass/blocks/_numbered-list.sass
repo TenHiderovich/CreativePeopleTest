@@ -1,0 +1,18 @@
+.numbered-list
+    padding-left: 15px
+    counter-reset: li
+
+    &__item
+        line-height: 1
+        list-style: none
+        position: relative
+        
+        &:not(:last-child)
+            margin-bottom: 30px
+
+        &:before
+            counter-increment: li
+            content: counter(li)"."
+            color: $accent-white
+            display: inline-block
+            margin-right: 5px

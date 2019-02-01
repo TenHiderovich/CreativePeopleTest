@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="22" viewBox="0 0 21 22">
+    <defs>
+        <path id="2qqfa" d="M999.516 779.969c5.842 0 10.578 4.743 10.578 10.594 0 5.85-4.736 10.593-10.578 10.593s-10.578-4.743-10.578-10.593c0-5.851 4.736-10.594 10.578-10.594zm-.32 15.19l3.776-4.663-3.876-4.634-1.962.261 3.617 4.4-3.492 4.34z" />
+    </defs>
+    <g>
+        <g opacity=".15" transform="translate(-989 -780)">
+            <use fill="#fff" xlink:href="#2qqfa" />
+        </g>
+    </g>
+</svg>

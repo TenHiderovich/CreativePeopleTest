@@ -1,0 +1,55 @@
+
+/*---Begin setups---*/
+  
+body,html
+  height: 100%
+
+.page
+  margin: 0
+  overflow-x: hidden
+  display: flex
+  flex-direction: column
+  line-height: 17px
+  
+.container
+  width: 100%
+  max-width: 1290px
+  padding: 0 15px
+  margin: 0 auto
+  box-sizing: border-box
+  +minw(1440)
+    width: 89.6%
+    max-width: 100%
+
+  
+
+.title
+  +NBR
+  color: #fff
+  
+  &_size
+
+    &_20
+      font-size: 20px
+
+    &_24
+      font-size: 24px
+
+    &_32
+      font-size: 32px
+
+    &_36
+      font-size: 36px
+
+    &_40
+      font-size: 40px
+
+.op25
+  opacity: 0.25
+
+img[srcset]
+  opacity: 0
+  transition: 1s ease
+
+  &.show
+    opacity: 1

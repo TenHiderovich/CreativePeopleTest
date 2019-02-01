@@ -1,0 +1,53 @@
+.filter
+    
+
+    &__list
+        display: flex
+        flex-direction: column
+        +minw(700)
+            flex-direction: row
+    &__item
+        margin-bottom: 28px
+        +minw(700)
+            &:not(:first-child)
+                margin-left: 25px
+
+    &__link
+        color: #9fa2a8
+        text-decoration: none
+        text-transform: uppercase
+        font-size: 12px
+        letter-spacing: 0.6px
+        +PTR
+        transition: 0.3s ease
+
+        &:before
+            content: ''
+            display: block
+            position: absolute
+            width: 0
+            height: 2px
+            background-color: $accent-black
+            bottom: -5px
+            transition: 0.3s ease
+
+        &:hover
+            color: $accent-black
+
+        &_is-active
+            +PTB
+            color: $accent-black
+            position: relative
+
+            &:before
+                width: 100%
+
+
+// @media only screen and (-Webkit-min-device-pixel-ratio: 2),
+// only screen and (-moz-min-device-pixel-ratio: 2),
+// only screen and (-o-min-device-pixel-ratio: 2),
+// only screen and (device-min--pixel-ratio: 2) 
+//     .filter__link
+//         font-size: 18px
+  
+

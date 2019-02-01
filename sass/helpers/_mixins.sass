@@ -1,0 +1,49 @@
+// Media mixin
+@mixin maxw($width) 
+    @media screen and (max-width: $width + 'px') 
+        @content
+@mixin minw($width) 
+    @media screen and (min-width: $width + 'px') 
+        @content
+@mixin mmw($max-width, $min-width) 
+    @media (max-width: $max-width + 'px') and (min-width: $min-width + 'px') 
+        @content
+    
+    
+// Font mixin
+@mixin font($name, $size, $style, $weight) 
+    @font-face 
+        font-family: $name + '-'+ $size
+        font-display: auto
+        src: local($name)
+        src: url('../fonts/' + $name + '/'+ $name + '-'+ $size + '.eot')
+        src: url('../fonts/' + $name + '/'+ $name + '-'+ $size + '.woff2') format('woff2')
+        src: url('../fonts/' + $name + '/'+ $name + '-'+ $size + '.woff') format('woff')
+        src: url('../fonts/' + $name + '/'+ $name + '-'+ $size + '.ttf') format('truetype')
+        font-weight: $weight
+        font-style: $style
+
+    
+@mixin PTR
+    font-family: 'PT Sans-Regular', sans-serif
+@mixin PTB
+    font-family: 'PT Sans-Bold', sans-serif
+
+@mixin NBR
+    font-family: 'NewBaskervilleC-Regular', serif
+
+
+// Position mixin
+@mixin centered($axis: 'both') 
+    position: absolute
+    @if $axis=='both' 
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+    @if $axis=='x' 
+        left: 50%
+        transform: translateX(-50%)
+    @if $axis=='y' 
+        top: 50%
+        transform: translateY(-50%)
+    
